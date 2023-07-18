@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color:lavenderblush
+        }
+        form{
+            width:300px;
+        }
+        input {
+            margin:5px
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add user</title>
+</head>
+<body>
+    <h1>Melsoft Survey Form</h1>
+    <p>Fill the form with Correct information</p>
+    <form action="Server URL"></form>
+        <Fieldset>
+            <label for="Firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname"
+            <label for="Lastname">Last Name</label>
+            <input type="text" id="Lastname" name="Lastname"
+            <label for="Emailaddress">Email Address</label>
+            <input type="text" id="Emailaddress" name="Emailaddress" min="8" max="20"
+            abel for="status">Status:</label>
+        <select id="status" name="status">
+            <option value="Student">Student</option>
+            <option value="Instructor">Instructor</option>
+            <option value="Guest">Guest</option>
+        </select>
+        <br>
+        <p>Choose your favourite programming language:</p>
+        <input type="radio" id="html" name="favorite_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="favorite_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="favorite_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+        <label for="current_date">Current Date:</label>
+        <input type="date" id="current_date" name="current_date"><br>
+        <input type="checkbox" id="newsletter" name="newsletter" value="true">
+        <label for="newsletter">Sign up for the newsletter</label><br>
+        <input type="checkbox" id="terms_conditions" name="terms_conditions" required>
+        <label for="terms_conditions">Agree to terms and conditions</label><br>
+
+        <input type="submit" value="Submit">
+        </Fieldset>
+</body>
+</html>
